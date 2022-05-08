@@ -32,11 +32,6 @@ const CategoryDetails = () => {
             {' '}
             Description :{categorydata.description}
           </h5>
-          {/* <div>
-            <h6>
-              Price : {categorydata.price} {categorydata.currency}{' '}
-            </h6>
-          </div> */}
         </div>
       </div>
     </div>

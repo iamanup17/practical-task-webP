@@ -31,8 +31,6 @@ const Products = () => {
     };
 
     productsdata();
-
-    // console.log(object);
   }, []);
 
   return (
@@ -47,7 +45,6 @@ const Products = () => {
                 placeholder="Search By Name"
                 onChange={(e) => setsearch(e.target.value)}
               />
-              {/* <input type="text" placeholder="Select Category" /> */}
 
               <select
                 name=""
